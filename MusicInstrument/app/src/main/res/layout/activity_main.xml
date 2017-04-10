@@ -145,6 +145,31 @@
             android:layout_weight="1">
 
             <ImageView
+                android:id="@+id/iv_string1"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_string2"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_string3"
 
                 android:layout_width="5dp"
                 android:layout_height="match_parent"
@@ -157,6 +182,7 @@
             android:layout_weight="1">
 
             <ImageView
+                android:id="@+id/iv_string4"
 
                 android:layout_width="5dp"
                 android:layout_height="match_parent"
@@ -169,6 +195,7 @@
             android:layout_weight="1">
 
             <ImageView
+                android:id="@+id/iv_string5"
 
                 android:layout_width="5dp"
                 android:layout_height="match_parent"
@@ -181,30 +208,7 @@
             android:layout_weight="1">
 
             <ImageView
-
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1">
-
-            <ImageView
-
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:background="#FFFFFF"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_weight="1">
-
-            <ImageView
+                android:id="@+id/iv_string6"
 
                 android:layout_width="5dp"
                 android:layout_height="match_parent"
