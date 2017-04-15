@@ -85,19 +85,10 @@
             android:layout_weight="1"
             android:background="#616161"/>
         <TextView
-            android:text="A"
+            android:text="B"
             android:gravity="center"
             android:textColor="#FFFFFF"
             android:layout_margin="1dp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#616161"/>
-        <TextView
-            android:layout_margin="1dp"
-            android:text="D"
-            android:gravity="center"
-            android:textColor="#FFFFFF"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -113,7 +104,7 @@
             android:background="#616161"/>
         <TextView
             android:layout_margin="1dp"
-            android:text="B"
+            android:text="D"
             android:gravity="center"
             android:textColor="#FFFFFF"
             android:layout_width="0dp"
@@ -122,7 +113,16 @@
             android:background="#616161"/>
         <TextView
             android:layout_margin="1dp"
-            android:text="E"
+            android:text="A"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#616161"/>
+        <TextView
+            android:layout_margin="1dp"
+            android:text="E#"
             android:gravity="center"
             android:textColor="#FFFFFF"
             android:layout_width="0dp"
@@ -145,8 +145,9 @@
             android:layout_weight="1">
 
             <ImageView
+                android:tag="E"
                 android:id="@+id/iv_string1"
-                android:layout_width="5dp"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"/>
         </RelativeLayout>
@@ -157,8 +158,9 @@
             android:layout_weight="1">
 
             <ImageView
+                android:tag="B"
                 android:id="@+id/iv_string2"
-                android:layout_width="5dp"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"/>
         </RelativeLayout>
@@ -170,8 +172,8 @@
 
             <ImageView
                 android:id="@+id/iv_string3"
-
-                android:layout_width="5dp"
+                android:tag="G"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"/>
         </RelativeLayout>
@@ -183,8 +185,8 @@
 
             <ImageView
                 android:id="@+id/iv_string4"
-
-                android:layout_width="5dp"
+                android:tag="D"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"/>
         </RelativeLayout>
@@ -196,8 +198,8 @@
 
             <ImageView
                 android:id="@+id/iv_string5"
-
-                android:layout_width="5dp"
+                android:tag="A"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"/>
         </RelativeLayout>
@@ -209,8 +211,8 @@
 
             <ImageView
                 android:id="@+id/iv_string6"
-
-                android:layout_width="5dp"
+                android:tag="E#"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:background="#FFFFFF"/>
         </RelativeLayout>
